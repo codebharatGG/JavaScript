@@ -25,3 +25,4 @@ console.log(typeof true);
 console.log(typeof isLoggedin);
 
 // ASSIGNMENT read all the specification on ecma script
+//https://tc39.es/ecma262/ click on the link...
