@@ -60,4 +60,30 @@ because of conversion so now we treat it as a string from now onwards!!
 */
 // This topic is little bit confusing,but be patient and try to understand it!!!
 
-console.table([typeof score,valueInNumber,typeof valueInNumber,temp,typeof temp,typeof valueInTemp,infinity,typeof infinity,typeof valueInInfinity , valueInInfinity,typeof score1,score1,valueInBoolean,typeof valueInBoolean,typeof isLoggedIn,typeof booleanIsLoggedIn,booleanIsLoggedIn,typeof stringNumber,stringNumber])
+// console.table([typeof score,valueInNumber,typeof valueInNumber,temp,typeof temp,typeof valueInTemp,infinity,typeof infinity,typeof valueInInfinity , valueInInfinity,typeof score1,score1,valueInBoolean,typeof valueInBoolean,typeof isLoggedIn,typeof booleanIsLoggedIn,booleanIsLoggedIn,typeof stringNumber,stringNumber])
+
+// ***********************  OPERATION's **********************
+// let value = 3
+// let negValue = -(value)
+// console.log(negValue)
+
+// str1 = "Hello"
+// str2 = " Bharadwaj"
+// console.log(str1+str2)
+
+console.log(1 + "2")
+console.log("1" + 2)
+console.log(1 + 2)
+console.log(1 + 2 + 3) 
+console.log(1 + 2 + "3") 
+console.log("1" + 2 + 3) 
+console.log("1" + 2 + 3 + 4) 
+console.log(1 + "2" + 3 + 4) 
+console.log(1 + 2 + "3" + 4) 
+console.log(1 + 2 + "3" + 4 + 5)  
+
+// Prefix and postfix 
+console.log(++100) // prefix
+console.log(100++) // postfix
+
+// Assignment:- Read the documentation of mnd on prefix & postfix before moving on next lecture!!!
