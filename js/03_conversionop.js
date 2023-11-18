@@ -4,8 +4,8 @@ let score = "33ac"
 // console.log(typeof score)
 
 let valueInNumber = Number(score)
-// console.log(valueInNumber)
-// console.log(typeof valueInNumber)
+console.log(valueInNumber)
+console.log(typeof valueInNumber)
 
 let temp = null
 // console.log(temp)
@@ -71,19 +71,36 @@ because of conversion so now we treat it as a string from now onwards!!
 // str2 = " Bharadwaj"
 // console.log(str1+str2)
 
-console.log(1 + "2")
-console.log("1" + 2)
-console.log(1 + 2)
-console.log(1 + 2 + 3) 
-console.log(1 + 2 + "3") 
-console.log("1" + 2 + 3) 
-console.log("1" + 2 + 3 + 4) 
-console.log(1 + "2" + 3 + 4) 
-console.log(1 + 2 + "3" + 4) 
-console.log(1 + 2 + "3" + 4 + 5)  
+// console.log(1 + "2")
+// console.log("1" + 2)
+// console.log(1 + 2)
+// console.log(1 + 2 + 3) 
+// console.log(1 + 2 + "3") 
+// console.log("1" + 2 + 3) 
+// console.log("1" + 2 + 3 + 4) 
+// console.log(1 + "2" + 3 + 4) 
+// console.log(1 + 2 + "3" + 4) 
+// console.log(1 + 2 + "3" + 4 + 5)  
 
 // Prefix and postfix 
-console.log(++100) // prefix
-console.log(100++) // postfix
+//console.log(++100) // prefix
+//console.log(100++) // postfix
 
 // Assignment:- Read the documentation of mnd on prefix & postfix before moving on next lecture!!!
+
+// let x = 3;
+// const y = ++x;
+// console.log("The value of X is: ",x)
+// console.log("The value of Increment is: ",y)
+
+// let x1 = 3;
+// let y1 = ++x;
+// console.log("The value of X2 is: ",x)
+// console.log("The value of Increment 2 is: ",y)
+
+// let x2 = 3;
+// let y2 = ++x;
+// console.log("The value of X3 is: ",x)
+// console.log("The value of Increment 3 is: ",y)
+
+
