@@ -11,7 +11,7 @@ let temp = null
 let userEmail;
 const id = Symbol("123")
 const anotherId = Symbol("123")
-console.log(id === anotherId);
+// console.log(id === anotherId);
 const bigNumber = 3747378770n 
 
 // B) Non-primitive datatype (Reference):- Array, Objects, Functions
@@ -26,7 +26,9 @@ let myObj = {
 }
 
 const myFunction = function(){
-    console.log("Hello world");
+    // console.log("Hello world");
 
 }
 // To check any type of the datatype we use typeof func
+// console.table(typeof score, scoreValue, temp, userEmail, id, anotherId,  bigNumber, heros, myObj, myFunction)
+console.log(typeof heros)
