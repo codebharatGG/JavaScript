@@ -31,4 +31,26 @@ const myFunction = function(){
 }
 // To check any type of the datatype we use typeof func
 // console.table(typeof score, scoreValue, temp, userEmail, id, anotherId,  bigNumber, heros, myObj, myFunction)
-console.log(typeof heros)
+// console.log(typeof score, heros)
+// console.log(typeof score)
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------
+//  Memory allocation:- Stack and Heap
+
+// Stack=> Primitive ; Heap=> Non-Primitive
+
+let myFullName = "Bharadwaj Jitendra Chavan"
+let anothername = myFullName
+anothername = "Bharadwaj"
+console.log(anothername)
+console.log(myFullName)
+
+let userOne ={
+    email: "bharadwaj@google.com",
+    upi: "abc@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "chetan@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
